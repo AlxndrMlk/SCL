@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.2),
-    on April 25, 2020, at 19:43
+    on April 25, 2020, at 19:50
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\aleksander.molak\\Documents\\Personal\\Psych\\SOCIAL_COGN_LAB\\Homework\\emancypacja_lastrun.py',
+    originPath='C:\\Users\\aleksander.molak\\Documents\\Personal\\Psych\\SOCIAL_COGN_LAB\\SCL\\Hmwrk_1\\emancypacja_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -79,25 +79,6 @@ else:
 
 # create a default keyboard (e.g. to check for escape)
 defaultKeyboard = keyboard.Keyboard()
-
-# Initialize components for Routine "demographics"
-demographicsClock = core.Clock()
-to_finish = visual.TextStim(win=win, name='to_finish',
-    text='Aby zakończyć, proszę wcisnąć spację',
-    font='Arial',
-    pos=(0, -.4), height=0.02, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-win.allowStencil = True
-demo = visual.Form(win=win, name='demo',
-    items='demografia2.xlsx',
-    textHeight=0.02,
-    randomize=False,
-    size=(1, 0.7),
-    pos=(0, 0),
-    itemPadding=0.05)
-key_resp_2 = keyboard.Keyboard()
 
 # Initialize components for Routine "ldt_instr"
 ldt_instrClock = core.Clock()
@@ -168,108 +149,6 @@ key_resp_2 = keyboard.Keyboard()
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
 routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
-
-# ------Prepare to start Routine "demographics"-------
-continueRoutine = True
-# update component parameters for each repeat
-key_resp_2.keys = []
-key_resp_2.rt = []
-_key_resp_2_allKeys = []
-# keep track of which components have finished
-demographicsComponents = [to_finish, demo, key_resp_2]
-for thisComponent in demographicsComponents:
-    thisComponent.tStart = None
-    thisComponent.tStop = None
-    thisComponent.tStartRefresh = None
-    thisComponent.tStopRefresh = None
-    if hasattr(thisComponent, 'status'):
-        thisComponent.status = NOT_STARTED
-# reset timers
-t = 0
-_timeToFirstFrame = win.getFutureFlipTime(clock="now")
-demographicsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-frameN = -1
-
-# -------Run Routine "demographics"-------
-while continueRoutine:
-    # get current time
-    t = demographicsClock.getTime()
-    tThisFlip = win.getFutureFlipTime(clock=demographicsClock)
-    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-    # update/draw components on each frame
-    
-    # *to_finish* updates
-    if to_finish.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-        # keep track of start time/frame for later
-        to_finish.frameNStart = frameN  # exact frame index
-        to_finish.tStart = t  # local t and not account for scr refresh
-        to_finish.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(to_finish, 'tStartRefresh')  # time at next scr refresh
-        to_finish.setAutoDraw(True)
-    demo.draw()
-    
-    # *key_resp_2* updates
-    waitOnFlip = False
-    if key_resp_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-        # keep track of start time/frame for later
-        key_resp_2.frameNStart = frameN  # exact frame index
-        key_resp_2.tStart = t  # local t and not account for scr refresh
-        key_resp_2.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(key_resp_2, 'tStartRefresh')  # time at next scr refresh
-        key_resp_2.status = STARTED
-        # keyboard checking is just starting
-        waitOnFlip = True
-        win.callOnFlip(key_resp_2.clock.reset)  # t=0 on next screen flip
-        win.callOnFlip(key_resp_2.clearEvents, eventType='keyboard')  # clear events on next screen flip
-    if key_resp_2.status == STARTED and not waitOnFlip:
-        theseKeys = key_resp_2.getKeys(keyList=['space'], waitRelease=False)
-        _key_resp_2_allKeys.extend(theseKeys)
-        if len(_key_resp_2_allKeys):
-            key_resp_2.keys = _key_resp_2_allKeys[-1].name  # just the last key pressed
-            key_resp_2.rt = _key_resp_2_allKeys[-1].rt
-            # a response ends the routine
-            continueRoutine = False
-    
-    # check for quit (typically the Esc key)
-    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-        core.quit()
-    
-    # check if all components have finished
-    if not continueRoutine:  # a component has requested a forced-end of Routine
-        break
-    continueRoutine = False  # will revert to True if at least one component still running
-    for thisComponent in demographicsComponents:
-        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-            continueRoutine = True
-            break  # at least one component has not yet finished
-    
-    # refresh the screen
-    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-        win.flip()
-
-# -------Ending Routine "demographics"-------
-for thisComponent in demographicsComponents:
-    if hasattr(thisComponent, "setAutoDraw"):
-        thisComponent.setAutoDraw(False)
-thisExp.addData('to_finish.started', to_finish.tStartRefresh)
-thisExp.addData('to_finish.stopped', to_finish.tStopRefresh)
-demoData = demo.getData()
-while demoData['questions']:
-    for dataTypes in demoData.keys():
-        thisExp.addData(dataTypes, demoData[dataTypes].popleft())
-    thisExp.nextEntry()
-# check responses
-if key_resp_2.keys in ['', [], None]:  # No response was made
-    key_resp_2.keys = None
-thisExp.addData('key_resp_2.keys',key_resp_2.keys)
-if key_resp_2.keys != None:  # we had a response
-    thisExp.addData('key_resp_2.rt', key_resp_2.rt)
-thisExp.addData('key_resp_2.started', key_resp_2.tStartRefresh)
-thisExp.addData('key_resp_2.stopped', key_resp_2.tStopRefresh)
-thisExp.nextEntry()
-# the Routine "demographics" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "ldt_instr"-------
 continueRoutine = True
