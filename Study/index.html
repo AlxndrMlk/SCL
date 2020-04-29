@@ -5,7 +5,8 @@
   <meta charset = 'utf-8'>
 
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet"> 
 
   <title>The Article Base Portal</title>
   <meta name = 'description' content = 'The Article Base Portal'>
@@ -16,11 +17,30 @@
 </head>
 
 <body>
-    <h1 id = 'title'>The Article Base Portal</h1>
+    <h1 id = 'header'>The Article Base Portal</h1>
 
-    <p id = 'test'></p>
+    <div class = 'row'>
+      <div class = 'column side'>
+        <div class = 'ad-left' id = 'left-1'><img class = 'banner' src = "https://3.bp.blogspot.com/-QPImf87x6Ms/ULic38EyeCI/AAAAAAAAAK8/0yrRclOkPo8/s1600/loreal+ad.jpg"></div>
+        <div class = 'ad-left' id = 'left-2'><img class = 'banner' src = "https://i.ytimg.com/vi/P2CpsBavApg/maxresdefault.jpg"></div>
+        <div class = 'ad-left' id = 'left-3'><img class = 'banner' src = "https://static.wirtualnemedia.pl/media/top/krakuski-reklama-rytualyprzyjemnosci655.png"></div>
+      </div>
 
-    <p id = 'content' src = 'https://www.w3.org/TR/PNG/iso_8859-1.txt'></p>
+      <div class = 'column middle'>
+        <p id = 'title'></p>
+
+        <p id = 'content' src = 'https://www.w3.org/TR/PNG/iso_8859-1.txt'></p>
+
+      </div>
+
+      <div class = 'column side'>
+        <div class = 'ad-right' id = 'right-1'><img class = 'banner' src = "https://cdn.vox-cdn.com/thumbor/e8O-BpJBdyGOdC1EQeGM_tBc4fc=/0x0:1200x630/1200x800/filters:focal(504x219:696x411)/cdn.vox-cdn.com/uploads/chorus_image/image/63476526/dove_soap_1.0.jpg"></div>
+        <div class = 'ad-right' id = 'right-2'><img class = 'banner' src = "https://static.fabrik.io/pd2/e6258126b6e24903.jpg?auto=format&lossless=1&w=2880&h=5120&fit=max&s=c1ec4e5d4823d8056cb52f942ec63ad6"></div>
+        <div class = 'ad-right' id = 'right-3'><img class = 'banner' src = "https://cdn.vox-cdn.com/thumbor/e8O-BpJBdyGOdC1EQeGM_tBc4fc=/0x0:1200x630/1200x800/filters:focal(504x219:696x411)/cdn.vox-cdn.com/uploads/chorus_image/image/63476526/dove_soap_1.0.jpg"></div>
+      </div>
+    </div> 
+
+
 
   <script>
     function getUrlVars() {
@@ -42,7 +62,7 @@
     }
 
     var param = getUrlParameter('text', 'NONE');
-    document.getElementById('test').innerHTML = param;
+    document.getElementById('title').innerHTML = param;
 
     // document.getElementById('content').innerHTML = https://www.w3.org/TR/PNG/iso_8859-1.txt
 

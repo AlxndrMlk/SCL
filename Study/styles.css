@@ -2,7 +2,21 @@ body {
     background-color: #fafcff;
 }
 
-#title {
+.column {
+    float: left;
+}
+  
+/* Left and right column */
+.column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+.column.middle {
+    width: 50%;
+  }
+
+#header {
     background-color: #ad1a64;
     color: #fafcff;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -13,6 +27,28 @@ body {
 }
 
 #content {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Spectral', serif;
     font-size: 18px;
+    padding-top: 50px;
+}
+
+#title {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    padding-top: 50px;    
+}
+
+.ad-left {
+    padding: 40px;
+    padding-top: 250px;
+}
+
+.ad-right {
+    padding: 40px;
+    padding-top: 250px;
+}
+
+.banner {
+    flex: auto;
+    max-width: 100%;
 }
