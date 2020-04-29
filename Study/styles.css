@@ -1,0 +1,18 @@
+body {
+    background-color: #fafcff;
+}
+
+#title {
+    background-color: #ad1a64;
+    color: #fafcff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    margin: 0px;
+    /* margin-inline-start: 50px; */
+    padding: 50px;
+}
+
+#content {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+}
