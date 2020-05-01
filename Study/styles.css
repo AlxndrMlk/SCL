@@ -17,7 +17,7 @@ body {
   }
 
 #header {
-    background-color: #ad1a64;
+    background-color: #5b8dd9;
     color: #fafcff;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 48px;
@@ -51,4 +51,5 @@ body {
 .banner {
     flex: auto;
     max-width: 100%;
+    border-radius: 2px;
 }

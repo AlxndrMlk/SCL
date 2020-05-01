@@ -17,13 +17,14 @@
 </head>
 
 <body>
-    <h1 id = 'header'>The Article Base Portal</h1>
+    <h1 id = 'header'>||The Article Base Portal</h1>
 
     <div class = 'row'>
       <div class = 'column side'>
-        <div class = 'ad-left' id = 'left-1'><img class = 'banner' src = "https://3.bp.blogspot.com/-QPImf87x6Ms/ULic38EyeCI/AAAAAAAAAK8/0yrRclOkPo8/s1600/loreal+ad.jpg"></div>
-        <div class = 'ad-left' id = 'left-2'><img class = 'banner' src = "https://i.ytimg.com/vi/P2CpsBavApg/maxresdefault.jpg"></div>
-        <div class = 'ad-left' id = 'left-3'><img class = 'banner' src = "https://static.wirtualnemedia.pl/media/top/krakuski-reklama-rytualyprzyjemnosci655.png"></div>
+        <div class = 'ad-left' id = 'left-1'><img class = 'banner' src = "https://static.wirtualnemedia.pl/media/top/krakuski-reklama-rytualyprzyjemnosci655.png"></div>
+        <div class = 'ad-left' id = 'left-2'><img class = 'banner' src = "https://3.bp.blogspot.com/-QPImf87x6Ms/ULic38EyeCI/AAAAAAAAAK8/0yrRclOkPo8/s1600/loreal+ad.jpg"></div>
+        <div class = 'ad-left' id = 'left-3'><img class = 'banner' src = "https://i.ytimg.com/vi/P2CpsBavApg/maxresdefault.jpg"></div>
+        
       </div>
 
       <div class = 'column middle'>
@@ -56,6 +57,7 @@
         if(window.location.href.indexOf(parameter) > -1){
             
             urlparameter = getUrlVars()[parameter]
+            urlparameter = urlparameter.replace(/\+/g, ' ')
             console.log(urlparameter)
             }
         return urlparameter;
