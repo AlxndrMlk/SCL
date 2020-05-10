@@ -1,0 +1,4 @@
+﻿link.started,link.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,text.started,text.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text_2.started,text_2.stopped,key_resp_3.keys,key_resp_3.rt,key_resp_3.started,key_resp_3.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+5.733570700045675,None,space,1.6300733999814838,5.733570700045675,None,,,,,,,,,,,,,345,001,2020_May_02_0814,link_test,2020.1.2,59.96947554188729,
+,,,,,,8.296023600036278,None,space,6.482971699908376,8.296023600036278,None,,,,,,,345,001,2020_May_02_0814,link_test,2020.1.2,59.96947554188729,
+,,,,,,,,,,,,14.808822900056839,None,space,1.3613694000523537,14.808822900056839,None,345,001,2020_May_02_0814,link_test,2020.1.2,59.96947554188729,

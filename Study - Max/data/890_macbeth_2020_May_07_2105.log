@@ -1,0 +1,543 @@
+0.8074 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.1260 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+9.3671 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001840E416588>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001840FC74128>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.3672 	EXP 	window1: recordFrameIntervals = False
+9.5243 	EXP 	window1: recordFrameIntervals = True
+9.7076 	EXP 	window1: recordFrameIntervals = False
+10.0631 	EXP 	Created intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='intro_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.0671 	EXP 	Created space_instr_intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='space_instr_intro', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Aby wziąć udział w badaniu, naciśnij spację.', units='height', win=Window(...), wrapWidth=1)
+10.0900 	EXP 	Imported relationship_quest.xlsx as conditions, 8 conditions, 9 params
+10.0905 	EXP 	Question text: Czy ma Pani/Pan ukończone 18 lat?
+10.1123 	EXP 	Response type: radio
+10.1123 	EXP 	Response layout: horiz
+10.1123 	EXP 	Response options: ['Tak', ' Nie']
+10.1163 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' Nie', units='height', win=Window(...), wrapWidth=0.2)
+10.1468 	EXP 	Question text: Czy jest Pani/Pan aktualnie w związku?
+10.1595 	EXP 	Response type: radio
+10.1595 	EXP 	Response layout: horiz
+10.1595 	EXP 	Response options: ['Tak', ' Nie']
+10.1629 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' Nie', units='height', win=Window(...), wrapWidth=0.2)
+10.1720 	EXP 	Question text: Czy jest Pani/Pan w związku małżeńskim?
+10.1780 	EXP 	Response type: radio
+10.1780 	EXP 	Response layout: horiz
+10.1780 	EXP 	Response options: ['Tak', ' Nie']
+10.1803 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' Nie', units='height', win=Window(...), wrapWidth=0.2)
+10.1887 	EXP 	Question text: Kto jest dla Pani/Pana najbliższą osobą?
+10.1955 	EXP 	Response type: radio
+10.1956 	EXP 	Response layout: vert
+10.1956 	EXP 	Response options: ['członek rodziny', ' partnerka/partner', ' przyjaciółka/przyjaciel', ' inna osoba', ' nie mam bliskiej osoby']
+10.2031 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' przyjaciółka/przyjaciel', units='height', win=Window(...), wrapWidth=0.08)
+10.2263 	EXP 	Question text: Czy ma Pani/Pan tematy tabu ze swoją najbliższą osobą?
+10.2302 	EXP 	Response type: radio
+10.2302 	EXP 	Response layout: horiz
+10.2302 	EXP 	Response options: ['Tak', ' Nie']
+10.2325 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' Nie', units='height', win=Window(...), wrapWidth=0.2)
+10.2418 	EXP 	Question text: W skali od 1 do 7 (1 - zupełnie niesatysfakcjonująca; 7 - zupełnie satysfakcjonująca), prosimy powiedzieć, jak bardzo satysfakcjonująca jest Pani/Pana relacja z najbliższą osobą
+10.2654 	EXP 	Response type: rating
+10.2655 	EXP 	Response layout: horiz
+10.2655 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6', ' 7']
+10.2702 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.05714285714285715)
+10.2952 	EXP 	Question text: Jak często uprawia Pani/Pan seks?
+10.3002 	EXP 	Response type: radio
+10.3002 	EXP 	Response layout: vert
+10.3002 	EXP 	Response options: ['codziennie', ' kilka razy w tygodniu', ' raz na tydzień', ' rzadziej niż raz na tydzień', ' rzadziej niż raz na miesiąc', ' nigdy nie uprawiałam/em seksu']
+10.3066 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' nigdy nie uprawiałam/em seksu', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.3317 	EXP 	Question text: W skali od 1 do 7 (1 - zupełnie nieswobodnie; 7 - bardzo swobodnie) prosimy o udzielenie odpowiedzi, jak bardzo swobodnie czuje się Pani/Pan przy najbliższej dla siebie osobie
+10.3422 	EXP 	Response type: rating
+10.3422 	EXP 	Response layout: horiz
+10.3422 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6', ' 7']
+10.3444 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.05714285714285715)
+10.4208 	EXP 	Created relationship_form = <psychopy.visual.form.Form object at 0x0000018414869278>
+10.4345 	EXP 	Created space_instr_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='space_instr_4', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4596 	EXP 	Created relationship_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='relationship_instr', opacity=1.0, ori=0, pos=array([0.  , 0.43]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5145 	EXP 	Created instr_fakeiq = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_fakeiq', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5188 	EXP 	Created image_raven = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_raven', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+10.5342 	EXP 	Created instr_premfq = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_premfq', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5442 	EXP 	Imported mfq1.xlsx as conditions, 15 conditions, 9 params
+10.5447 	EXP 	Question text: 1) czy ktoś ucierpiał emocjonalnie;
+10.5633 	EXP 	Response type: rating
+10.5633 	EXP 	Response layout: horiz
+10.5633 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.5662 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.5847 	EXP 	Question text: 2) czy ktoś był traktowany inaczej niż inni;
+10.5897 	EXP 	Response type: rating
+10.5897 	EXP 	Response layout: horiz
+10.5898 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.5920 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.6051 	EXP 	Question text: 3) czy czyjeś działania były przejawem miłości dla ojczyzny;
+10.6101 	EXP 	Response type: rating
+10.6101 	EXP 	Response layout: horiz
+10.6102 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.6121 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.6260 	EXP 	Question text: 4) czy ktoś okazał brak szacunku dla władzy;
+10.6305 	EXP 	Response type: rating
+10.6305 	EXP 	Response layout: horiz
+10.6306 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.6325 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.6460 	EXP 	Question text: 5) czy ktoś pogwałcił zasady czystości i przyzwoitości;
+10.6506 	EXP 	Response type: rating
+10.6506 	EXP 	Response layout: horiz
+10.6506 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.6526 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.6670 	EXP 	Question text: 6) czy ktoś troszczył się o kogoś słabego lub bezbronnego;
+10.6723 	EXP 	Response type: rating
+10.6724 	EXP 	Response layout: horiz
+10.6724 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.6748 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.6893 	EXP 	Question text: 7) czy ktoś zachował się nieuczciwie;
+10.6953 	EXP 	Response type: rating
+10.6953 	EXP 	Response layout: horiz
+10.6953 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.6976 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.7112 	EXP 	Question text: 8) czy ktoś zrobił coś, aby zdradzić własną grupę;
+10.7159 	EXP 	Response type: rating
+10.7159 	EXP 	Response layout: horiz
+10.7159 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.7180 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.7323 	EXP 	Question text: 9) czy ktoś postępował zgodnie z tradycją;
+10.7383 	EXP 	Response type: rating
+10.7383 	EXP 	Response layout: horiz
+10.7383 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.7410 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.7578 	EXP 	Question text: 10) czy ktoś zrobił coś obrzydliwego;
+10.7634 	EXP 	Response type: rating
+10.7634 	EXP 	Response layout: horiz
+10.7634 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.7655 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.7850 	EXP 	Question text: 11) czy ktoś zachował się okrutnie;
+10.7886 	EXP 	Response type: rating
+10.7886 	EXP 	Response layout: horiz
+10.7886 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.7911 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.8043 	EXP 	Question text: 12) czy komuś odmówiono jego/jej praw;
+10.8111 	EXP 	Response type: rating
+10.8111 	EXP 	Response layout: horiz
+10.8112 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.8135 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.8298 	EXP 	Question text: 13) czy ktoś okazał brak lojalności wobec swojej grupy;
+10.8335 	EXP 	Response type: rating
+10.8335 	EXP 	Response layout: horiz
+10.8335 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.8357 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.8596 	EXP 	Question text: 14) czy czyjeś działania burzą ustalony porządek życia społecznego;
+10.8642 	EXP 	Response type: rating
+10.8642 	EXP 	Response layout: horiz
+10.8642 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.8663 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.8833 	EXP 	Question text: 15) czy ktoś postępował tak, aby nie obrazić Boga;
+10.8890 	EXP 	Response type: rating
+10.8890 	EXP 	Response layout: horiz
+10.8890 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+10.8915 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+10.9158 	EXP 	Created MFQ_part1 = <psychopy.visual.form.Form object at 0x0000018415C1C160>
+10.9296 	EXP 	Created space_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='space_instr', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.9878 	EXP 	Created mfq1_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.023, italic=False, languageStyle='LTR', name='mfq1_instr', opacity=1.0, ori=0, pos=array([0.  , 0.43]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0163 	EXP 	Created scale_instr_mfq1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='scale_instr_mfq1', opacity=1.0, ori=0, pos=array([-0.7 ,  0.26]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0309 	EXP 	Imported mfq2.xlsx as conditions, 15 conditions, 9 params
+11.0315 	EXP 	Question text: 16) Współczucie dla cierpiących jest najważniejszą cnotą człowieka.
+11.0446 	EXP 	Response type: rating
+11.0446 	EXP 	Response layout: horiz
+11.0446 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.0498 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.0709 	EXP 	Question text: 17) Jeśli ustanawia się nowe prawo, to najważniejsze jest, aby wszyscy byli traktowani sprawiedliwie.
+11.0830 	EXP 	Response type: rating
+11.0831 	EXP 	Response layout: horiz
+11.0831 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.0861 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.1014 	EXP 	Question text: 18) Jestem dumny z historii mojego kraju.
+11.1077 	EXP 	Response type: rating
+11.1077 	EXP 	Response layout: horiz
+11.1077 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.1109 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.1254 	EXP 	Question text: 19) Szacunek dla władzy i autorytetów jest czymś, czego powinny nauczyć się wszystkie dzieci.
+11.1346 	EXP 	Response type: rating
+11.1346 	EXP 	Response layout: horiz
+11.1347 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.1370 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.1605 	EXP 	Question text: 20) Nie należy robić rzeczy obrzydliwych, nawet jeśli nikomu nie dzieje się krzywda z tego powodu.
+11.1692 	EXP 	Response type: rating
+11.1693 	EXP 	Response layout: horiz
+11.1693 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.1717 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.1861 	EXP 	Question text: 21) Jedną z najgorszych rzeczy, jakie może zrobić człowiek, jest skrzywdzenie bezbronnego zwierzęcia.
+11.1930 	EXP 	Response type: rating
+11.1930 	EXP 	Response layout: horiz
+11.1930 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.1951 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.2100 	EXP 	Question text: 22) Sprawiedliwe traktowanie obywateli jest podstawą dobrego społeczeństwa.
+11.2158 	EXP 	Response type: rating
+11.2159 	EXP 	Response layout: horiz
+11.2159 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.2180 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.2315 	EXP 	Question text: 23) Należy być lojalnym wobec członków rodziny, nawet gdy zrobią coś złego.
+11.2372 	EXP 	Response type: rating
+11.2372 	EXP 	Response layout: horiz
+11.2372 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.2400 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.2563 	EXP 	Question text: 24) Role kobiet i mężczyzn w społeczeństwie są i powinny być różne.
+11.2623 	EXP 	Response type: rating
+11.2623 	EXP 	Response layout: horiz
+11.2623 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.2644 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.2781 	EXP 	Question text: 25) Określiłbym/określiłabym pewne czyny jako złe ze względu na to, że są one niezgodne z naturą.
+11.2860 	EXP 	Response type: rating
+11.2860 	EXP 	Response layout: horiz
+11.2860 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.2883 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.2993 	EXP 	Question text: 26) Zabicie drugiego człowieka jest - w zdecydowanej większości przypadków - czymś moralnie złym.
+11.3068 	EXP 	Response type: rating
+11.3068 	EXP 	Response layout: horiz
+11.3068 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.3091 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.3233 	EXP 	Question text: 27) Uważam, że jest to moralnie złe, że dzieci bogatych ludzi mają znacząco lepszy start w życiu niż dzieci biednych ludzi.
+11.3319 	EXP 	Response type: rating
+11.3319 	EXP 	Response layout: horiz
+11.3319 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.3338 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.3467 	EXP 	Question text: 28) Solidarność ze swoją grupą jest ważniejsza niż wierność własnym poglądom.
+11.3519 	EXP 	Response type: rating
+11.3520 	EXP 	Response layout: horiz
+11.3520 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.3539 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.3691 	EXP 	Question text: 29) Gdybym był żołnierzem i nie zgadzałbym się z rozkazem przełożonego, to i tak bym go wykonał, ponieważ taki jest obowiązek żołnierza.
+11.3779 	EXP 	Response type: rating
+11.3779 	EXP 	Response layout: horiz
+11.3780 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.3806 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.3941 	EXP 	Question text: 30) Czystość seksualna to ważna i cenna cnota człowieka.
+11.3984 	EXP 	Response type: rating
+11.3985 	EXP 	Response layout: horiz
+11.3985 	EXP 	Response options: ['1', ' 2', ' 3', ' 4', ' 5', ' 6']
+11.4005 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 2', units='height', win=Window(...), wrapWidth=0.06666666666666667)
+11.4212 	EXP 	Created MFQ_part2 = <psychopy.visual.form.Form object at 0x0000018414981CF8>
+11.4319 	EXP 	Created space_instr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='space_instr_2', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4494 	EXP 	Created scale_instr_mfq1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='scale_instr_mfq1_2', opacity=1.0, ori=0, pos=array([-0.7 ,  0.26]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4668 	EXP 	Created mfq1_instr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.023, italic=False, languageStyle='LTR', name='mfq1_instr_2', opacity=1.0, ori=0, pos=array([0.  , 0.43]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4752 	EXP 	Created manipulation_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='manipulation_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.4920 	EXP 	Imported demography.xlsx as conditions, 4 conditions, 9 params
+11.4925 	EXP 	Question text: Prosimy zaznaczyć swoją płeć:
+11.5041 	EXP 	Response type: radio
+11.5041 	EXP 	Response layout: horiz
+11.5041 	EXP 	Response options: ['Mężczyzna', ' Kobieta', ' Inna']
+11.5091 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='Mężczyzna', units='height', win=Window(...), wrapWidth=0.13333333333333333)
+11.5251 	EXP 	Question text: Prosimy zaznaczyć swój wiek:
+11.5290 	EXP 	Response type: radio
+11.5290 	EXP 	Response layout: horiz
+11.5290 	EXP 	Response options: ['18 - 26', ' 26 - 34', ' 34 - 42', ' 42 - 50', ' 50+']
+11.5340 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' 26 - 34', units='height', win=Window(...), wrapWidth=0.08)
+11.5578 	EXP 	Question text: Prosimy zaznaczyć swoje miejsce zamieszkania:
+11.5615 	EXP 	Response type: radio
+11.5615 	EXP 	Response layout: vert
+11.5615 	EXP 	Response options: ['Wieś', ' Miasto do 10 000 mieszkańców', ' Miasto od 10 do 50 000 mieszkańców', ' Miasto od 50 do 500 000 mieszkańców', ' Miasto powyżej 500 000 mieszkańców']
+11.5694 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' Miasto od 50 do 500 000 mieszkańców', units='height', win=Window(...), wrapWidth=0.08)
+11.5962 	EXP 	Question text: Prosimy zaznaczyć swoje wykształcenie:
+11.5995 	EXP 	Response type: radio
+11.5996 	EXP 	Response layout: horiz
+11.5996 	EXP 	Response options: ['Podstawowe', ' Gimnazjalne', ' Średnie', ' Wyższe']
+11.6034 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=' Gimnazjalne', units='height', win=Window(...), wrapWidth=0.1)
+11.6293 	EXP 	Created demography_form = <psychopy.visual.form.Form object at 0x000001841A0057F0>
+11.6413 	EXP 	Created space_instr_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='space_instr_3', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.7414 	EXP 	Created debriefing_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='debriefing_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.7758 	EXP 	unnamed Form: autoLog = True
+11.7758 	EXP 	relationship_form: name = 'relationship_form'
+11.7758 	EXP 	relationship_form: size = (1, 0.7)
+11.7758 	EXP 	relationship_form: pos = (0, 0)
+11.7758 	EXP 	relationship_form: size = array([1. , 0.7])
+11.7758 	EXP 	relationship_form: pos = array([0., 0.])
+11.7758 	EXP 	relationship_form: units = 'height'
+11.7758 	EXP 	unnamed Form: autoLog = True
+11.7758 	EXP 	MFQ_part1: name = 'MFQ_part1'
+11.7758 	EXP 	MFQ_part1: size = (1, 0.7)
+11.7758 	EXP 	MFQ_part1: pos = (0, 0)
+11.7758 	EXP 	MFQ_part1: size = array([1. , 0.7])
+11.7758 	EXP 	MFQ_part1: pos = array([0., 0.])
+11.7758 	EXP 	MFQ_part1: units = 'height'
+11.7758 	EXP 	unnamed Form: autoLog = True
+11.7758 	EXP 	MFQ_part2: name = 'MFQ_part2'
+11.7758 	EXP 	MFQ_part2: size = (1, 0.7)
+11.7758 	EXP 	MFQ_part2: pos = (0, 0)
+11.7758 	EXP 	MFQ_part2: size = array([1. , 0.7])
+11.7758 	EXP 	MFQ_part2: pos = array([0., 0.])
+11.7758 	EXP 	MFQ_part2: units = 'height'
+11.7758 	EXP 	unnamed Form: autoLog = True
+11.7758 	EXP 	demography_form: name = 'demography_form'
+11.7758 	EXP 	demography_form: size = (1, 0.7)
+11.7758 	EXP 	demography_form: pos = (0, 0)
+11.7758 	EXP 	demography_form: size = array([1. , 0.7])
+11.7758 	EXP 	demography_form: pos = array([0., 0.])
+11.7758 	EXP 	demography_form: units = 'height'
+11.7758 	EXP 	intro_text: autoDraw = True
+11.7758 	EXP 	space_instr_intro: autoDraw = True
+13.7291 	DATA 	Keypress: space
+13.7920 	EXP 	intro_text: autoDraw = False
+13.7920 	EXP 	space_instr_intro: autoDraw = False
+13.7920 	EXP 	space_instr_4: autoDraw = True
+13.7920 	EXP 	relationship_instr: autoDraw = True
+14.9541 	DATA 	Keypress: space
+14.9733 	EXP 	relationship_form: autoDraw = False
+14.9733 	EXP 	space_instr_4: autoDraw = False
+14.9733 	EXP 	relationship_instr: autoDraw = False
+14.9733 	EXP 	instr_fakeiq: autoDraw = True
+16.8504 	EXP 	Imported fakeiq_images.xlsx as conditions, 3 conditions, 1 params
+16.8515 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+16.8519 	EXP 	New trial (rep=0, index=0): OrderedDict([('ImageFile', 'raven/raven2.png')])
+16.9278 	DATA 	Keypress: space
+16.9322 	EXP 	instr_fakeiq: autoDraw = False
+16.9322 	EXP 	image_raven: image = 'raven/raven2.png'
+16.9322 	EXP 	image_raven: autoDraw = True
+17.4943 	DATA 	Keypress: space
+18.7767 	DATA 	Keypress: space
+20.1436 	DATA 	Keypress: 4
+20.1611 	EXP 	New trial (rep=0, index=1): OrderedDict([('ImageFile', 'raven/raven1.png')])
+20.1793 	EXP 	image_raven: autoDraw = False
+20.1793 	EXP 	image_raven: image = 'raven/raven1.png'
+20.1793 	EXP 	image_raven: autoDraw = True
+21.2595 	DATA 	Keypress: 3
+21.2793 	EXP 	New trial (rep=0, index=2): OrderedDict([('ImageFile', 'raven/raven3.png')])
+21.3118 	EXP 	image_raven: autoDraw = False
+21.3118 	EXP 	image_raven: image = 'raven/raven3.png'
+21.3118 	EXP 	image_raven: autoDraw = True
+22.4094 	DATA 	Keypress: 1
+22.4369 	EXP 	image_raven: autoDraw = False
+22.4369 	EXP 	instr_premfq: autoDraw = True
+24.0411 	DATA 	Keypress: space
+24.0863 	EXP 	instr_premfq: autoDraw = False
+24.0863 	EXP 	space_instr: autoDraw = True
+24.0863 	EXP 	mfq1_instr: autoDraw = True
+24.0863 	EXP 	scale_instr_mfq1: autoDraw = True
+26.9477 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,666)
+27.0355 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+27.1185 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+27.6516 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+27.7576 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+27.8176 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+27.8908 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+28.4506 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+28.4898 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+29.2022 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+29.2692 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+30.4850 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+30.5377 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+30.5673 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+31.7154 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+31.7847 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+32.3501 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+32.3843 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+32.4174 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+32.4686 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+32.9326 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+32.9822 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+32.9996 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+33.0869 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+33.5332 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+33.5469 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+33.5816 	DATA 	Mouse: wheel shift=(0,-1), pos=(828,660)
+34.4828 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,677)
+34.5046 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,677)
+34.5326 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,677)
+34.5615 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,677)
+34.9486 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,677)
+34.9667 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,677)
+34.9880 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,675)
+35.0199 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,675)
+35.0526 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,675)
+35.4478 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,674)
+35.4611 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.4730 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.4989 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.5105 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.5650 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.9331 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.9462 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.9639 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+35.9977 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+36.0321 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+36.6310 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+36.6640 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+36.6749 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+36.6975 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+36.7364 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+36.7497 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.0975 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.1078 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.1326 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.1564 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.1815 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.2323 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.5316 	DATA 	Mouse: wheel shift=(0,-1), pos=(852,673)
+37.5481 	DATA 	Mouse: wheel shift=(0,-1), pos=(853,670)
+37.5604 	DATA 	Mouse: wheel shift=(0,-1), pos=(853,670)
+37.5784 	DATA 	Mouse: wheel shift=(0,-1), pos=(853,670)
+37.6148 	DATA 	Mouse: wheel shift=(0,-1), pos=(853,670)
+37.6635 	DATA 	Mouse: wheel shift=(0,-1), pos=(853,670)
+42.3658 	DATA 	Mouse: Left button down, pos=(1323,219)
+42.4795 	DATA 	Mouse:  Left button up, pos=(1323,219)
+43.2456 	DATA 	Mouse: Left button down, pos=(1397,219)
+43.3643 	DATA 	Mouse:  Left button up, pos=(1397,219)
+44.3122 	DATA 	Mouse: Left button down, pos=(1388,360)
+44.4058 	DATA 	Mouse:  Left button up, pos=(1385,361)
+44.8911 	DATA 	Mouse: Left button down, pos=(1324,357)
+45.0126 	DATA 	Mouse:  Left button up, pos=(1324,357)
+45.7470 	DATA 	Mouse: Left button down, pos=(1323,482)
+45.8297 	DATA 	Mouse:  Left button up, pos=(1323,482)
+46.2616 	DATA 	Mouse: Left button down, pos=(1391,495)
+46.3618 	DATA 	Mouse:  Left button up, pos=(1388,500)
+46.9117 	DATA 	Mouse: Left button down, pos=(1387,629)
+47.0281 	DATA 	Mouse:  Left button up, pos=(1387,629)
+50.3119 	DATA 	Mouse: Left button down, pos=(1184,753)
+50.3940 	DATA 	Mouse:  Left button up, pos=(1179,760)
+50.7382 	DATA 	Mouse: wheel shift=(0,1), pos=(1225,720)
+50.7622 	DATA 	Mouse: wheel shift=(0,1), pos=(1225,709)
+50.7927 	DATA 	Mouse: wheel shift=(0,1), pos=(1225,706)
+50.8242 	DATA 	Mouse: wheel shift=(0,1), pos=(1225,697)
+50.8513 	DATA 	Mouse: wheel shift=(0,1), pos=(1225,694)
+52.6422 	DATA 	Mouse: Left button down, pos=(1247,780)
+52.7625 	DATA 	Mouse:  Left button up, pos=(1247,780)
+52.9607 	DATA 	Mouse: wheel shift=(0,1), pos=(1251,678)
+52.9652 	DATA 	Mouse: wheel shift=(0,1), pos=(1247,667)
+52.9776 	DATA 	Mouse: wheel shift=(0,1), pos=(1244,654)
+53.0085 	DATA 	Mouse: wheel shift=(0,1), pos=(1242,639)
+53.3086 	DATA 	Mouse: wheel shift=(0,1), pos=(1218,623)
+53.3122 	DATA 	Mouse: wheel shift=(0,1), pos=(1217,624)
+53.3259 	DATA 	Mouse: wheel shift=(0,1), pos=(1217,624)
+53.3483 	DATA 	Mouse: wheel shift=(0,1), pos=(1217,624)
+54.0927 	DATA 	Mouse: Left button down, pos=(1172,732)
+54.2027 	DATA 	Mouse:  Left button up, pos=(1173,732)
+54.4092 	DATA 	Mouse: wheel shift=(0,1), pos=(1206,746)
+54.4199 	DATA 	Mouse: wheel shift=(0,1), pos=(1205,743)
+54.4324 	DATA 	Mouse: wheel shift=(0,1), pos=(1205,739)
+54.4410 	DATA 	Mouse: wheel shift=(0,1), pos=(1205,735)
+54.4606 	DATA 	Mouse: wheel shift=(0,1), pos=(1205,733)
+54.4919 	DATA 	Mouse: wheel shift=(0,1), pos=(1201,723)
+54.6911 	DATA 	Mouse: wheel shift=(0,2), pos=(1197,700)
+54.7046 	DATA 	Mouse: wheel shift=(0,1), pos=(1197,699)
+54.7331 	DATA 	Mouse: wheel shift=(0,1), pos=(1197,697)
+55.5048 	DATA 	Mouse: Left button down, pos=(1101,790)
+55.6258 	DATA 	Mouse:  Left button up, pos=(1102,791)
+55.8999 	DATA 	Mouse: wheel shift=(0,1), pos=(1456,784)
+55.9211 	DATA 	Mouse: wheel shift=(0,1), pos=(1435,763)
+55.9248 	DATA 	Mouse: wheel shift=(0,1), pos=(1427,750)
+55.9412 	DATA 	Mouse: wheel shift=(0,1), pos=(1408,728)
+55.9591 	DATA 	Mouse: wheel shift=(0,1), pos=(1398,719)
+56.1235 	DATA 	Mouse: wheel shift=(0,1), pos=(1381,699)
+56.1632 	DATA 	Mouse: wheel shift=(0,1), pos=(1381,699)
+56.1658 	DATA 	Mouse: wheel shift=(0,1), pos=(1381,698)
+56.1916 	DATA 	Mouse: wheel shift=(0,1), pos=(1381,698)
+56.2263 	DATA 	Mouse: wheel shift=(0,1), pos=(1381,698)
+56.9087 	DATA 	Mouse: Left button down, pos=(1384,713)
+57.0277 	DATA 	Mouse:  Left button up, pos=(1386,712)
+57.4575 	DATA 	Mouse: Left button down, pos=(1395,836)
+57.5605 	DATA 	Mouse:  Left button up, pos=(1394,838)
+57.7569 	DATA 	Mouse: wheel shift=(0,2), pos=(1331,699)
+57.7643 	DATA 	Mouse: wheel shift=(0,1), pos=(1329,697)
+57.7742 	DATA 	Mouse: wheel shift=(0,1), pos=(1328,697)
+57.8074 	DATA 	Mouse: wheel shift=(0,2), pos=(1325,690)
+57.9717 	DATA 	Mouse: wheel shift=(0,1), pos=(1313,672)
+57.9896 	DATA 	Mouse: wheel shift=(0,1), pos=(1313,672)
+57.9917 	DATA 	Mouse: wheel shift=(0,1), pos=(1313,672)
+58.0088 	DATA 	Mouse: wheel shift=(0,1), pos=(1313,671)
+58.0168 	DATA 	Mouse: wheel shift=(0,1), pos=(1313,670)
+58.0376 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,667)
+58.1816 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,666)
+58.1966 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,666)
+58.2169 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,665)
+58.2236 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,665)
+58.2401 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,664)
+58.2438 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,663)
+58.2654 	DATA 	Mouse: wheel shift=(0,1), pos=(1311,663)
+58.4067 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.4135 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.4235 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.4408 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.4525 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.4757 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.6243 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.6326 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.6599 	DATA 	Mouse: wheel shift=(0,2), pos=(1312,663)
+58.6747 	DATA 	Mouse: wheel shift=(0,1), pos=(1312,663)
+58.8535 	DATA 	Mouse: wheel shift=(0,1), pos=(1316,672)
+58.8664 	DATA 	Mouse: wheel shift=(0,1), pos=(1316,673)
+58.8950 	DATA 	Mouse: wheel shift=(0,1), pos=(1316,673)
+58.8989 	DATA 	Mouse: wheel shift=(0,1), pos=(1316,673)
+58.9072 	DATA 	Mouse: wheel shift=(0,1), pos=(1316,673)
+58.9314 	DATA 	Mouse: wheel shift=(0,1), pos=(1317,674)
+59.3739 	DATA 	Mouse: Left button down, pos=(1393,792)
+59.4911 	DATA 	Mouse:  Left button up, pos=(1393,787)
+59.9904 	DATA 	Mouse: Left button down, pos=(1391,661)
+60.0907 	DATA 	Mouse:  Left button up, pos=(1390,652)
+60.5896 	DATA 	Mouse: Left button down, pos=(1392,527)
+60.6913 	DATA 	Mouse:  Left button up, pos=(1390,496)
+61.1921 	DATA 	Mouse: Left button down, pos=(1391,402)
+61.3031 	DATA 	Mouse:  Left button up, pos=(1387,405)
+64.9884 	DATA 	Mouse: Left button down, pos=(574,784)
+65.7388 	DATA 	Mouse:  Left button up, pos=(1014,728)
+67.3544 	DATA 	Mouse: Left button down, pos=(535,649)
+68.1458 	DATA 	Mouse:  Left button up, pos=(924,635)
+74.4519 	DATA 	Mouse: Left button down, pos=(1100,792)
+74.5692 	DATA 	Mouse:  Left button up, pos=(1100,793)
+77.0681 	DATA 	Mouse: Left button down, pos=(1387,791)
+77.2003 	DATA 	Mouse:  Left button up, pos=(1387,791)
+78.6669 	DATA 	Mouse: Left button down, pos=(1080,1035)
+78.9533 	DATA 	Mouse:  Left button up, pos=(1232,1018)
+81.6996 	DATA 	Mouse: Left button down, pos=(990,87)
+81.8205 	DATA 	Mouse:  Left button up, pos=(990,87)
+84.5412 	DATA 	Keypress: space
+84.6027 	EXP 	MFQ_part1: autoDraw = False
+84.6027 	EXP 	space_instr: autoDraw = False
+84.6027 	EXP 	mfq1_instr: autoDraw = False
+84.6027 	EXP 	scale_instr_mfq1: autoDraw = False
+84.6027 	EXP 	space_instr_2: autoDraw = True
+84.6027 	EXP 	scale_instr_mfq1_2: autoDraw = True
+84.6027 	EXP 	mfq1_instr_2: autoDraw = True
+87.4647 	DATA 	Mouse: wheel shift=(0,-1), pos=(739,671)
+87.4801 	DATA 	Mouse: wheel shift=(0,-1), pos=(739,669)
+87.4966 	DATA 	Mouse: wheel shift=(0,-1), pos=(739,669)
+87.5318 	DATA 	Mouse: wheel shift=(0,-1), pos=(739,669)
+87.7653 	DATA 	Mouse: wheel shift=(0,-1), pos=(739,669)
+87.7697 	DATA 	Mouse: wheel shift=(0,-1), pos=(739,668)
+87.7973 	DATA 	Mouse: wheel shift=(0,1), pos=(739,666)
+87.8161 	DATA 	Mouse: wheel shift=(0,-1), pos=(739,666)
+88.0149 	DATA 	Mouse: wheel shift=(0,-1), pos=(740,666)
+88.0238 	DATA 	Mouse: wheel shift=(0,-1), pos=(740,664)
+88.0490 	DATA 	Mouse: wheel shift=(0,-2), pos=(740,661)
+88.2311 	DATA 	Mouse: wheel shift=(0,-1), pos=(742,663)
+88.2468 	DATA 	Mouse: wheel shift=(0,-1), pos=(742,660)
+88.2515 	DATA 	Mouse: wheel shift=(0,-1), pos=(741,656)
+88.2612 	DATA 	Mouse: wheel shift=(0,-1), pos=(741,655)
+88.4496 	DATA 	Mouse: wheel shift=(0,-3), pos=(754,661)
+88.4540 	DATA 	Mouse: wheel shift=(0,-1), pos=(753,656)
+88.4796 	DATA 	Mouse: wheel shift=(0,-1), pos=(753,655)
+88.6391 	DATA 	Mouse: wheel shift=(0,-1), pos=(756,652)
+88.6469 	DATA 	Mouse: wheel shift=(0,-2), pos=(754,647)
+88.6576 	DATA 	Mouse: wheel shift=(0,-1), pos=(754,646)
+88.6615 	DATA 	Mouse: wheel shift=(0,-1), pos=(754,646)
+88.7986 	DATA 	Mouse: wheel shift=(0,-1), pos=(764,641)
+88.9972 	DATA 	Mouse: wheel shift=(0,-1), pos=(758,626)
+89.0004 	DATA 	Mouse: wheel shift=(0,-1), pos=(758,626)
+89.0175 	DATA 	Mouse: wheel shift=(0,-1), pos=(758,624)
+89.1803 	DATA 	Mouse: wheel shift=(0,-1), pos=(786,641)
+89.1860 	DATA 	Mouse: wheel shift=(0,-2), pos=(783,631)
+89.1936 	DATA 	Mouse: wheel shift=(0,-1), pos=(782,626)
+89.2040 	DATA 	Mouse: wheel shift=(0,-1), pos=(782,626)
+89.2095 	DATA 	Mouse: wheel shift=(0,-1), pos=(782,626)
+89.9865 	DATA 	Mouse: Left button down, pos=(1491,483)
+90.3475 	DATA 	Mouse:  Left button up, pos=(1503,102)
+90.5812 	DATA 	Mouse: Left button down, pos=(1351,86)
+90.7302 	DATA 	Mouse:  Left button up, pos=(1351,87)
+91.1967 	DATA 	Keypress: space
+91.2534 	EXP 	MFQ_part2: autoDraw = False
+91.2534 	EXP 	space_instr_2: autoDraw = False
+91.2534 	EXP 	scale_instr_mfq1_2: autoDraw = False
+91.2534 	EXP 	mfq1_instr_2: autoDraw = False
+91.2534 	EXP 	manipulation_text: text = 'Teraz poprosimy Panią/Pana o przypomnienie sobie sytuacji, \nw której odbyła Pani/odbył Pan angażującą rozmowę ze swoją najbliższą osobą. \n\nMoże Pani/Pan napisać historię tego zdarzenia na kartce, aby łatwiej było się Pani/Panu skupić. \nNastępnie prosimy o udzielnie odpowiedzi na poniższe pytania. \n\nPrzypominamy, że odpowiedzi są traktowane w sposób całkowicie poufny i anonimowy. \n\n\nJak czuła się Pani/czuł się Pan w trakcie przypominania sobie tej historii? \n\n\nJakie emocje teraz Pani/Pan odczuwa?\n'
+91.2534 	EXP 	manipulation_text: autoDraw = True
+92.1174 	DATA 	Keypress: space
+92.1375 	EXP 	manipulation_text: autoDraw = False
+92.1375 	EXP 	space_instr_3: autoDraw = True
+93.7337 	DATA 	Keypress: space
+93.7477 	EXP 	demography_form: autoDraw = False
+93.7477 	EXP 	space_instr_3: autoDraw = False
+93.7477 	EXP 	debriefing_text: autoDraw = True
+95.2177 	DATA 	Keypress: space
+95.2286 	EXP 	debriefing_text: autoDraw = False
+95.4352 	EXP 	window1: mouseVisible = True
