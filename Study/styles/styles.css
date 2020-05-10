@@ -20,32 +20,32 @@ body {
     background-color: #5b8dd9;
     color: #fafcff;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 48px;
+    font-size: 72px;
     margin: 0px;
     /* margin-inline-start: 50px; */
-    padding: 50px;
+    padding: 25px;
 }
 
 #content {
     font-family: 'Spectral', serif;
-    font-size: 18px;
-    padding-top: 50px;
+    font-size: 24px;
+    padding-top: 20px;
 }
 
 #title {
     font-family: 'Merriweather', serif;
     font-size: 36px;
-    padding-top: 50px;    
+    padding-top: 40px;    
 }
 
 .ad-left {
     padding: 40px;
-    padding-top: 250px;
+    padding-top: 150px;
 }
 
 .ad-right {
     padding: 40px;
-    padding-top: 250px;
+    padding-top: 150px;
 }
 
 .banner {

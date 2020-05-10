@@ -1,0 +1,80 @@
+
+<!doctype html>
+
+<html lang = 'en'>
+<head>
+  <meta charset = 'utf-8'>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet"> 
+
+  <title>The Article Base Portal</title>
+  <meta name = 'description' content = 'The Article Base Portal'>
+  <meta name = 'author' content = 'University of Warsaw'>
+
+  <link rel = 'stylesheet' href = '../styles/styles.css'>
+
+</head>
+
+<body>
+    <h1 id = 'header'>||The Article Base Portal</h1>
+
+    <div class = 'row'>
+      <div class = 'column side'>
+        <div class = 'ad-left' id = 'left-1'><img class = 'banner' src = "..\data\images\cleansing\cleansing_6.jpg"></div>
+        <div class = 'ad-left' id = 'left-2'><img class = 'banner' src = "..\data\images\cleansing\cleansing_1.jpg"></div>
+        <div class = 'ad-left' id = 'left-3'><img class = 'banner' src = "..\data\images\non-cleansing\non_cleansing_2.jpg"></div>
+        
+      </div>
+
+      <div class = 'column middle'>
+        <p id = 'title'></p>
+
+        <p id = 'content' src = 'https://www.w3.org/TR/PNG/iso_8859-1.txt'></p>
+
+      </div>
+
+      <div class = 'column side'>
+        <div class = 'ad-right' id = 'right-1'><img class = 'banner' src = "..\data\images\non-cleansing\non_cleansing_3.jpg"></div>
+        <div class = 'ad-right' id = 'right-2'><img class = 'banner' src = "..\data\images\non-cleansing\non_cleansing_1.jpg"></div>
+        <div class = 'ad-right' id = 'right-3'><img class = 'banner' src = "..\data\images\cleansing\cleansing_4.jpg"></div>
+      </div>
+    </div> 
+
+
+
+  <script>
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    function getUrlParameter(parameter, defaultvalue){
+        var urlparameter = defaultvalue;
+        if(window.location.href.indexOf(parameter) > -1){
+            
+            urlparameter = getUrlVars()[parameter]
+            urlparameter = urlparameter.replace(/\+/g, ' ')
+            console.log(urlparameter)
+            }
+        return urlparameter;
+    }
+
+    var param = getUrlParameter('text', 'NONE');
+    document.getElementById('title').innerHTML = param;
+
+    fetch('https://raw.githubusercontent.com/AlxndrMlk/SCL/master/Study/article_text.txt')
+        .then(response => response.text())
+        .then((data) => {
+        document.getElementById('content').innerHTML = data;
+    })
+
+
+  </script>
+
+</body>
+</html>
