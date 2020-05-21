@@ -1,0 +1,3 @@
+﻿condition,manipulation_text.started,manipulation_text.stopped,manipulation_key_resp.keys,manipulation_key_resp.rt,manipulation_key_resp.started,manipulation_key_resp.stopped,instr_fakeiq.started,instr_fakeiq.stopped,instr_fakeiq_key_resp.keys,instr_fakeiq_key_resp.rt,instr_fakeiq_key_resp.started,instr_fakeiq_key_resp.stopped,participant,date,expName,psychopyVersion,frameRate,
+1,5.823585600010119,None,t,4.13584310002625,5.823585600010119,None,,,,,,,,2020_May_21_2039,macbeth,2020.1.2,59.992069057920325,
+,,,,,,,9.980706800008193,None,space,0.9152654999634251,9.980706800008193,None,,2020_May_21_2039,macbeth,2020.1.2,59.992069057920325,
